@@ -9,7 +9,7 @@ import json
 def generate_signed_url():
     # 配置参数
     cloudfront_domain = "***.cloudfront.net"  # CloudFront 分配域名
-    s3_object_key = "files/"               # 要访问的文件路径
+    s3_object_key = "file"               # 要访问的文件路径
     private_key_path = "private_key.pem"      # 本地私钥文件路径
     key_pair_id = "***7JGJNHLC3PB"          # CloudFront Key Pair ID（不是密钥组名！）
 
